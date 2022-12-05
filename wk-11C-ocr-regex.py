@@ -46,24 +46,24 @@ print("Hello world!")
 
 ## glob files together
 
-#cal_files = glob.glob("docs/*.pdf")
-#print(cal_files)
+# cal_files = glob.glob("docs/*.pdf")
+# print(cal_files)
 
 ## how many files
 
-#print(len(cal_files))
+# print(len(cal_files))
 
-#ocr.ocr_files(cal_files, "cal_revenue.txt")
+# ocr.ocr_files(cal_files, "cal_revenue.txt")
 
 ## run kiwano ocr function. remember language and resolutions have default values.
 
 
 ## name of exported file
-file_name = "output/cal_revenue.txt"
-with open(file_name, "r") as mytext:
-    all_text = mytext.read()
+# file_name = "output/cal_revenue.txt"
+# with open(file_name, "r") as mytext:
+#     all_text = mytext.read()
 
-print(all_text)
+# print(all_text)
 
 ## pull into a variable all the text
 
